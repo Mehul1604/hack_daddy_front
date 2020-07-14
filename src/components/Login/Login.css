@@ -1,0 +1,28 @@
+.loginBack{
+    background-image: url('./mic2.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.loginWrapper{
+    text-align: center;
+}
+.loginBox{
+    margin : 0 auto;
+    position: relative;
+    top : 40vh;
+    background-color: transparent;
+    height:300px;
+    width: 35%;
+    border: white 5px solid;
+    border-radius: 20px;
+    
+}
+
+.loginInput{
+    background-color: transparent;
+    border: white 1px ridge;
+}

@@ -7,8 +7,8 @@ import 'bootstrap/dist/js/bootstrap';
 // to import react-bootstrap import {...} from 'react-bootstrap'
 import 'jquery';
 import 'popper.js';
-import Login from './components/Login';
-import Home from './components/Home';
+import Login from './components/Login/Login';
+import Home from './components/Home/Home';
 
 function App() {
   return (
