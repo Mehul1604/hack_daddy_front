@@ -7,7 +7,11 @@ class Login extends Component {
                 <div className="loginBox text-center">
                 <h2 className="text-white">Login</h2>
                 <form>
-                    <input className="loginInput" type="text"/>
+                <label className="loginLabel" htmlFor="username">Username</label>
+                    <input id="username" className="loginInput" type="text"/>
+                    <br/>
+                    <label className="loginLabel" htmlFor="password">Password</label>
+                    <input id="password" className="loginInput" type="password"/>
                 </form>
                 </div>
                 

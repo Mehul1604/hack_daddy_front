@@ -2,8 +2,9 @@
     background-image: url('./mic2.jpg');
     background-repeat: no-repeat;
     height: 100vh;
+    width: 100vw;
     background-size: cover;
-    background-attachment: fixed;
+    background-position: center center;
     
 }
 
@@ -14,15 +15,64 @@
     margin : 0 auto;
     position: relative;
     top : 40vh;
-    background-color: transparent;
     height:300px;
-    width: 35%;
-    border: white 5px solid;
-    border-radius: 20px;
+    width: 800px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 0.625rem;
+    border-top : 0.3px white ridge;
+    border-left : 0.3px white ridge
     
 }
 
+
+
+
 .loginInput{
-    background-color: transparent;
-    border: white 1px ridge;
+    width: 212px;
+    border: 1px solid;
+    border-bottom-color: rgba(255,255,255,.5);
+    border-right-color: rgba(60,60,60,.35);
+    border-top-color: rgba(60,60,60,.35);
+    border-left-color: rgba(80,80,80,.45);
+    background-color: rgba(247, 67, 12, 0.2);
+    background-repeat: no-repeat;
+    padding: 8px 24px 8px 10px;
+    font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
+    letter-spacing: .075em;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    margin-bottom: 39px;
+    margin-top: 20px;
+  }
+
+  .loginInput:focus { 
+      background-color: rgba(247,67,12,.4); 
+
+}
+
+.loginLabel{
+    color: white;
+    padding-right: 20px;
+}
+
+@media screen and (max-width:960px){
+    .loginBox{
+        width: 550px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:630px){
+    .loginBox{
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:390px){
+    .loginBox{
+        width: 250px;
+        height: 300px;
+        top : 30vh
+    }
 }
